@@ -1,0 +1,49 @@
+.container {
+  padding: 20px;
+  font-family: 'Roboto Light', sans-serif;
+}
+
+.header {
+  color: dimgray;
+  font-size: 1.6em;
+}
+
+.sub-header {
+  color: darkgray;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.content table {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.content table tr th {
+  border-bottom: solid 3px dimgray;
+  padding: 5px 10px;
+}
+
+.content table tr td {
+  padding: 5px 10px;
+}
+
+.content table tr:last-child td {
+  padding: 5px 10px;
+  border-bottom: solid 1px dimgray;
+}
+
+.content table tr th:nth-child(1),
+.content table tr th:nth-child(2),
+.content table tr th:nth-child(3) {
+  text-align: left;
+}
+
+.content table tr td:nth-child(4),
+.content table tr td:nth-child(5),
+.content table tr td:nth-child(6) {
+  text-align: right;
+}
+
+
